@@ -1,3 +1,9 @@
+# Check template
+def which_template(template,css,js,path):
+	if template == "HTML":
+		html_template(css,js,path)
+
+
 # HTML document
 def html_template(css, js, path):
 	h = open("index.html", "w")
@@ -9,3 +15,4 @@ def html_template(css, js, path):
 	if js == "y":
 		h.write("  <!-- Scripts -->\n\n  <script src='js/script.js'></script>\n\n")
 	h.write("</body>\n</html>")	
+	
