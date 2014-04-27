@@ -71,10 +71,6 @@ def html_template(css, js, path):
 # runs kick start
 def main():
 
-	import os
-	import time
-	import shutil 
-
 
 	path = raw_input("Enter the directory name: ")
 
