@@ -16,9 +16,9 @@ $ git clone https://github.com/mattludwigs/kickstart.git
 
 Next set up .bash_profile or .profile
 
-'''
+```
 	$ nano ~/.bash_profile
-'''
+```
 
 In nano type:
 
@@ -28,8 +28,8 @@ export PATH="/Users/you-user-name/bin:$PATH"
 
 Press ctrl-x and y to exit and save the file, then type:
 
-
+```
 	source .bash_profile
-
+```
 
 
