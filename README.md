@@ -4,7 +4,7 @@ Kickstart is away to kickstart your web project by setting up your files for you
 
 ## How to get started
 
-Get kcikstart.py 
+Get kickstart.py 
 
 ```
 $ cd ~
