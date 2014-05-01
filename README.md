@@ -1,6 +1,6 @@
 # Kickstart v.0.2.0
 
-Kickstart is away to kickstart your web project by steping up your files for you.
+Kickstart is away to kickstart your web project by setting up your files for you.
 
 ## How to get started
 
