@@ -45,7 +45,10 @@ Then type:
 $ kickstart.py
 ```
 
-This run kickstart and ask you a few questions, follow the prompt and then you should have the new project started in your directory. Just have navigate to the project and you can get started.
+Then run kickstart and ask you a few questions, follow the prompt and then you should have the new project started in your directory. Just have navigate to the project and you can get started.
+
+## License
+Kickstart is released under the MIT License.
 
 
 
