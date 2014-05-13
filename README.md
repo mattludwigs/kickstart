@@ -2,6 +2,8 @@
 
 Kickstart is away to kickstart your web project by setting up your files for you.
 
+This script will ask you some questions and create the folders and files you need according to your answers. This is to save time setting up simple website directories. 
+
 ## How to get started
 
 Get kickstart.py 
