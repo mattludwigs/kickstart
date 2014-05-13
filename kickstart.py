@@ -89,7 +89,7 @@ def main():
 
 	need_css = raw_input("Do you need css? (y or n)\n> ")
 	need_js = raw_input("Do you need JavaScript? (y or n)\n> ")
-	need_json = raw_input("Do you need JSON? (y or n)\n>")
+	need_json = raw_input("Do you need JSON? (y or n)\n> ")
 
 	new_d(path)
 	dir_change(path)
