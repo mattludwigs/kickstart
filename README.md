@@ -4,6 +4,12 @@ Kickstart is away to kickstart your web project by setting up your files for you
 
 This script will ask you some questions and create the folders and files you need according to your answers. This is to save time setting up simple website directories. 
 
+What can Kickstart set up for you:
+
+HTML template already set up for working with directories
+JS folder with a script.js file and/or a data.json file
+CSS folder witha style.css file already for use in your HTML doc
+
 ## How to get started
 
 Get kickstart.py 
