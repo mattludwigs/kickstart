@@ -1,4 +1,4 @@
-# Kickstart v.0.2.0
+# Kickstart v.0.4.0
 
 Kickstart is away to kickstart your web project by setting up your files for you.
 
