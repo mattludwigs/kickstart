@@ -14,7 +14,6 @@ def check_dir(path):
 		exit()
 	else:
 		print("<< directory does not exists, continue with start up >>\n")
-		time.sleep(1)
 
 # Make name directory
 def new_d(dir_name):
@@ -54,11 +53,23 @@ def new_file(css,js,path):
 		shutil.rmtree(path)
 		print("relaunch")
 
+#Check if needs JSON
+
+def json(json):
+	if json == "y" and os.path.exists("./js"):
+		jsn = open("./js/data.json", "a")
+		jsn.close
+	elif json == "y" and os.path.exists("./js") != True:
+		new_d("./js")
+		jsn = open("./js/data.json", "a")
+		jsn.close
+	else:
+		print("No JSON")	
 
 # HTML template
 def html_template(css, js, path):
 	h = open("index.html", "w")
-	h.write("<!DOCTYPE html>\n<html>\n<head>\n\n  <title>" + path[2:].title() + "</title>\n")
+	h.write("<!DOCTYPE html>\n<html>\n<head>\n\n  <title>" + path.title() + "</title>\n")
 	if css == "y":
 		h.write("\n  <link rel='stylesheet' href='css/style.css'>\n\n")
 	h.write("</head>\n")
@@ -78,12 +89,16 @@ def main():
 
 	need_css = raw_input("Do you need css? (y or n)\n> ")
 	need_js = raw_input("Do you need JavaScript? (y or n)\n> ")
+	need_json = raw_input("Do you need JSON? (y or n)\n> ")
 
 	new_d(path)
 	dir_change(path)
 
 	new_file(need_css,need_js,path)
+	json(need_json)
 	html_template(need_css,need_js,path)
+
+
 
 if __name__ == "__main__":
     main()
